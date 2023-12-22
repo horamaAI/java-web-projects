@@ -1,40 +1,33 @@
-*/src/main/resources/plugins/*.jar
-*/out
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# ---- Sonar
-*/.sonar
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-# ---- IntelliJ IDEA
+### IntelliJ IDEA ###
+.idea
 *.iws
 *.iml
 *.ipr
-*.idea
 
-# ---- Eclipse
-*/.classpath
-*/.project
-*/.settings
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-# ---- Maven
-*/target
-
-# ---- Mac OS X
-*/.DS_Store
-*/.AppleDouble
-*/.LSOverride
-*/Icon
-*/._*
-*/.Spotlight-V100
-*/.Trashes
-
-# ---- Windows
-*/Thumbs.db
-*/ehthumbs.db
-*/Desktop.ini
-*/$RECYCLE.BIN/
-
-# Gradle
-*/.gradle
-*/classes
-*/build
-*/.scannerwork/
+### VS Code ###
+.vscode/
